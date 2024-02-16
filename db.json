@@ -41,6 +41,30 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "asd",
+      "image": "asdf",
+      "price": 0.04,
+      "id": 8
+    },
+    {
+      "name": "0.02",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA0gMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf/EAD4QAAIBAwMBBgMGAwYGAwAAAAECAwAEEQUSITEGEyJBUWEUcYEjMkKRobFSwdEHFRYz4fAkU2JygpJDY/H/xAAaAQACAwEBAAAAAAAAAAAAAAACBAEDBQAG/8QAKxEAAgIBBAEDBAEFAQAAAAAAAQIAAxEEEiExQQUTIjJRYYFCFCNxkaEV/9oADAMBAAIRAxEAPwDrgFZisKyWjkT0cc1zr+07Q5ZL+z1eFd1uWWO5x+DHQn2PSujjrVachdyuivGww6sMgigdN64h1vsYGCNEaHVOzy24fa+wI3sRWieyltoe4ZG379wKjIx86rXvZ2eK6F52bvFt3/FbSnCt8j/WtR7Q69ps2zVNLmMX/MjXP14yKwtdovd+oEHGMialNmclGGO8RM7cX91D2iiNvJJFLDAERkODu69B161Y0HtvcGWJdYt+8KNtJt1w/wCXQ/6UFv7tL/Wbm7njcfETl4zn7o6D68VTEUUqG82PHAjkkJnIB4B+fTNWDS0eytbDOJR7j7yYxdotak7S69aJo6PKkSnaD4TuOPI+1HrLQdbuQFeBYsDku/8ASuXRtc2wM0JZDuZjOD74xRrTe2esaRMe41CSSBFH2MpMinPTGTkfKiNOfGZYNWVXAnRF7I6gr7pGiPsrGquq9mby5hEEW2LcwDSSsAqDzPv8qXZ/7VNQmj+2txEpAzLGfCCeg9aqHtDe6mCY53cHqBWjp9DS2GJmX",
+      "price": 0,
+      "id": 9
+    },
+    {
+      "name": "0.02",
+      "image": "https://media.istockphoto.com/id/479542154/photo/miso-ramen-noodles-with-egg-enoki-and-pak-choi.jpg?s=1024x1024&w=is&k=20&c=hii8gI4k6SMm35k44dGW8hNBXPPDsZ9dk6XfLlXx1OE=",
+      "price": 0,
+      "id": 10
+    },
+    {
+      "name": "0.04",
+      "image": "https://www.kitchensanctuary.com/wp-content/uploads/2020/12/Quick-Chicken-Ramen-Tall-FS-8.webp",
+      "price": 0,
+      "id": 11
     }
   ]
 }
