@@ -8,6 +8,8 @@ function NewPlantForm({ addPlant }) {
   function handleFormSubmit(e) {
     e.preventDefault();
 
+
+    //request object
     const plantData = {
       name,
       image,
@@ -16,7 +18,7 @@ function NewPlantForm({ addPlant }) {
 
     fetch("http://localhost:6001/plants", {
       method: "POST",
-      headers: { "Content-Type": "Application/JSON" },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(plantData),
     })
       .then((resp) => resp.json())
@@ -25,7 +27,7 @@ function NewPlantForm({ addPlant }) {
         console.log(newPlant);
       })
       .catch((error) => {
-        console.error("Error with newPlant Fetch", error);
+        console.error("Error with newPlant Fetch/post", error);
       });
   }
 

@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import PlantCard from "./PlantCard";
 import NewPlantForm from "./NewPlantForm";
+import Search from "./Search.js"
 
 
 function PlantList() {
   const[plants, setPlants] = useState([])
-
+  const[searchField, setSearchField] = useState("")
     function addPlant(newPlant) {
     setPlants([...plants, newPlant]);
   }
@@ -22,14 +23,22 @@ function PlantList() {
     })
   }, []);
 
+  //search
+  const filteredPlants = plants.filter((plant) =>
+  plant.name.toLowerCase().includes(searchField.toLowerCase())
+)
+
+function handleSearch(searchField) {
+  setSearchField(searchField)
+}
+
   return (
     <div>
       <NewPlantForm addPlant={addPlant} />
+      <Search onSearch={handleSearch} />
       <ul className="cards">
-        {plants.map((plant) => (
-          <PlantCard 
-          key={plant.id} 
-          plant={plant} />
+        {filteredPlants.map((plant) => (
+          <PlantCard key={plant.id} plant={plant} />
         ))}
       </ul>
     </div>
